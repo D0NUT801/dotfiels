@@ -1,0 +1,41 @@
+[manager]
+border_symbol = "│"
+border_style  = { fg = "#a594dc" }
+
+synced_style  = { fg = "#e06c9f" }
+
+find_keyword  = { fg = "#e65575", bold = true, italic = true }
+find_position = { fg = "#a594dc", bg = "#332226" }
+
+mode_normal   = { fg = "#fff5f7", bg = "#e06c9f", bold = true }
+mode_select   = { fg = "#fff5f7", bg = "#e65575", bold = true }
+mode_unset    = { fg = "#fff5f7", bg = "#a594dc", bold = true }
+
+[status]
+separator_open  = ""
+separator_close = ""
+overall         = { fg = "#eedee2", bg = "#332226" }
+current         = { fg = "#fff5f7", bg = "#e06c9f" }
+percent         = { fg = "#a594dc", bg = "#332226" }
+
+[filetype]
+[[filetype.rules]]
+mime = "image/*"
+fg = "#e06c9f"
+
+[[filetype.rules]]
+mime = "video/*"
+fg = "#e65575"
+
+[[filetype.rules]]
+mime = "audio/*"
+fg = "#a594dc"
+
+[[filetype.rules]]
+mime = "application/zip"
+fg = "#df9c53"
+
+[[filetype.rules]]
+mime = "application/x-tar"
+fg = "#df9c53"
+

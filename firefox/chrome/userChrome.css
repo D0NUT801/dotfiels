@@ -1,0 +1,36 @@
+/* --- Pastel Pink Firefox UI --- */
+:root {
+  --toolbar-bg: #fff0f5 !important;
+  --accent-pink: #e06c9f !important;
+  --text-dark: #4a1c2d !important;
+}
+
+/* Base UI Backgrounds */
+#navigator-toolbox, #nav-bar, #TabsToolbar {
+  background-color: var(--toolbar-bg) !important;
+  color: var(--text-dark) !important;
+  border: none !important;
+}
+
+/* Active Tab Styling */
+.tab-background[selected="true"] {
+  background-color: var(--accent-pink) !important;
+  border-radius: 8px 8px 0 0 !important;
+}
+
+.tab-label[selected="true"] {
+  color: #ffffff !important;
+  font-weight: bold !important;
+}
+
+/* URL Bar Styling */
+#urlbar-background {
+  background-color: #f7d6e0 !important;
+  border: 1px solid #e06c9f !important;
+  border-radius: 12px !important;
+}
+
+#urlbar-input {
+  color: var(--text-dark) !important;
+}
+
