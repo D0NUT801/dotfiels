@@ -1,0 +1,67 @@
+/* --- Pastel Pink SwayNC Theme --- */
+
+@define-color bg #fff0f5;
+@define-color fg #4a1c2d;
+@define-color accent #e06c9f;
+@define-color selection #f2b6c9;
+
+* {
+    font-family: "ComicShannsMono Nerd Font";
+    font-size: 13px;
+    color: @fg;
+}
+
+/* Control Center Panel */
+.control-center {
+    background: rgba(255, 240, 245, 0.95);
+    border: 2px solid @accent;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0 4px 20px rgba(74, 28, 45, 0.15);
+}
+
+/* Individual Notifications */
+.notification {
+    background: @bg;
+    border: 2px solid @accent;
+    border-radius: 12px;
+    margin: 8px 0;
+    padding: 12px;
+}
+
+.notification-content {
+    background: transparent;
+    padding: 4px;
+}
+
+.summary {
+    font-weight: bold;
+    color: @fg;
+    font-size: 14px;
+}
+
+.body {
+    color: @fg;
+}
+
+/* Buttons and Widgets */
+button {
+    background: @selection;
+    border: 1px solid @accent;
+    border-radius: 8px;
+    color: @fg;
+    padding: 6px 12px;
+    margin: 4px;
+}
+
+button:hover {
+    background: @accent;
+    color: #fff0f5;
+}
+
+.widget-title {
+    color: @fg;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 8px;
+}

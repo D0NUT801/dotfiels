@@ -1,0 +1,68 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font", "Noto Sans", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: transparent;
+    color: #4a1c2d;
+}
+
+/* Common Pill Module Styling */
+#workspaces,
+#window,
+#clock,
+#pulseaudio,
+#bluetooth,
+#network,
+#cpu,
+#memory,
+#tray {
+    background-color: #fff0f5;
+    padding: 4px 12px;
+    border-radius: 12px;
+    border: 1px solid #f2b6c9;
+    color: #4a1c2d;
+}
+
+/* Active Workspace Highlighting */
+#workspaces button {
+    padding: 0 6px;
+    color: #8a75d6;
+    background: transparent;
+}
+
+#workspaces button.active {
+    color: #fff0f5;
+    background-color: #e06c9f;
+    border-radius: 8px;
+}
+
+#workspaces button:hover {
+    background-color: #f2b6c9;
+    color: #4a1c2d;
+    border-radius: 8px;
+}
+
+/* Clock Central Accent */
+#clock {
+    background-color: #f7d6e0;
+    border: 1px solid #e06c9f;
+    color: #4a1c2d;
+}
+
+/* Hover effects for interactive modules */
+#pulseaudio:hover,
+#bluetooth:hover {
+    background-color: #f2b6c9;
+}
+
+#network:hover,
+#pulseaudio:hover,
+#bluetooth:hover {
+    background-color: #f2b6c9;
+}
